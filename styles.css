@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.month {
+  margin-bottom: 40px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.day {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.day:hover {
+  background-color: #eaeaea;
+}
+
+.open {
+  background-color: #9ccc65; /* Vert */
+}
+
+.closed {
+  background-color: #ef5350; /* Rouge */
+}
